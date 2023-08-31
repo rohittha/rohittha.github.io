@@ -1,0 +1,149 @@
+/* Assignment 2
+Name : Rohit Thakur
+Student Id : 8756601 */
+
+.video-section,
+.inner-subheading,
+.div-hourstable,
+.table-hours caption,
+.table-hours,
+.submit,
+form {
+  margin: 30px;
+}
+
+.contact-us form {
+  margin: 0px auto;
+  width: 60%;
+}
+.formfield {
+  /* margin: 10px 5px; */
+  padding: 5px;
+}
+.formfield label {
+  display: inline-block;
+  width: 105px;
+  vertical-align: top;
+}
+fieldset {
+  text-align: center;
+  margin: 30px 0px;
+}
+fieldset legend {
+  text-align: center;
+  font-size: x-large;
+  display: inline-block;
+}
+form button {
+  width: 120px;
+}
+/* .formfield input,
+.formfield textarea,
+.formfield select {
+  width: 250px;
+} */
+textarea {
+  height: 100px;
+}
+.contact-us fieldset {
+  border: 2px solid var(--colorHighlightBtn);
+}
+.contact-us fieldset legend {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.submit {
+  border: 2px solid var(--colorHighlightBtn);
+}
+/* .submit div {
+  margin: 0 0 10px 0;
+}
+.submit button {
+  border: 2px solid #800d29;
+  background-color: #800d29;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+} */
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  grid-auto-rows: repeat(3, 50px);
+  grid-gap: 30px;
+  margin: 30px auto;
+}
+form-grid label {
+}
+.form-width {
+  width: 60%;
+}
+.check-field {
+  text-align: left !important;
+  width: 50%;
+}
+.radio-field {
+  text-align: left;
+  width: 50%;
+}
+.coslpan {
+  grid-column: 1/3;
+}
+.stacked-options {
+  display: flex;
+  flex-direction: column;
+  text-align: left !important;
+}
+.table-hours {
+  margin: 0px auto;
+  box-shadow: 1px 4.5px 9px 1.5px rgba(0, 0, 0, 0.15);
+}
+.table-hours caption {
+  font-size: larger;
+  font-weight: bold;
+}
+.table-hours th {
+  padding: 10px 20px;
+  /* color: var(--colorLightest); */
+  background-color: var(--colorHighlight1);
+}
+
+.table-hours tr:nth-child(odd) {
+  background-color: var(--colorLightest);
+}
+.div-hourstable {
+  text-align: center;
+  margin: 0px auto;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+.hero-img-inner {
+  position: relative;
+  width: 100%;
+}
+.hero-img-inner img {
+  opacity: 0.5;
+}
+.inner-subheading {
+  position: absolute;
+  padding: 0px 100px;
+  top: 25%;
+  /* left: 20%; */
+  /* width: 90%;
+  max-width: 800px; */
+  font-size: x-large;
+  font-weight: 600;
+}
+.video-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  padding: 20px;
+}
+.video-section video {
+  box-shadow: 1.5px 4.5px 10.5px 2px rgba(0, 0, 0, 0.25);
+  height: 300px;
+  margin: auto auto;
+}

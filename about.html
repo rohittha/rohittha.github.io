@@ -1,0 +1,232 @@
+<!--     Assignment 2
+    Name : Rohit Thakur
+Student Id : 8756601 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/service.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>Suhag Salon</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="nav-bar-top">
+                <img src="pics/logo.png" alt="Logo">
+                <h1 class="mainh1"> Suhag Beauty Salon </h1>
+            </div>
+        </header>
+
+        <nav class="nav-bar-main">
+            <ul class="navtop-ul navtop-main">
+                <li><a href="index.html">Home</a></li>
+                <li class="li-dropdown">
+                    <a href="#">Services <i class="fa fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="hairstyling.html">Hair Styling</a></li>
+                            <li><a href="makeup.html">Make-up</a></li>
+                            <li><a href="skincare.html">Skin Care</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <div class="hero-image hero-img-inner">
+                    <!-- Image source :(Maldives, 2018) -->
+                    <img src="images/hero-image-inner.jpg" alt="Hero image">
+                    <div class="inner-subheading">
+                        <h2>Suhaag Salon</h2>
+                        <div class="divider-h-lg"></div>
+                        <p>Our ladies salon is the perfect place for women to relax and feel pampered. We offer a range
+                            of
+                            basic
+                            salon services to cater to all your beauty needs. </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="video-section">
+                    <div class="subheading">
+                        <h3 class="hr-lines">Our Salon</h3>
+                        <p class="p-dark">Suhag offers beauty services in GTA area for people who are looking
+                            for quality and affordable beauty care.</p>
+                        <p>Our Beauty Salon puts our customers' on a pedestal and leaves them satisfied with our
+                            services.
+
+                        </p>
+                    </div>
+                    <!-- Image source : (Productions, 2021) -->
+                    <video class="vertical-center" controls poster="images/poster.jpg" loop>
+                        <!-- Video source : (Pexels, 2020) https://www.pexels.com/video/hands-woman-girl-model-3996974/ -->
+                        <source src="media/videos/salon-video.mp4" type="video/mp4">
+                        <p>
+                            Sorry, your browser does not support video. You can download it from this
+                            <a href="media/videos/salon-video.mp4">link.</a>
+                        </p>
+                    </video>
+
+                </div>
+            </section>
+
+
+            <section>
+                <div id="tbl-hours" class="div-hourstable">
+                    <table class="table-hours">
+                        <caption>Salon working hours</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Monday</th>
+                                <th scope="col">Tuesday</th>
+                                <th scope="col">Wednesday</th>
+                                <th scope="col">Thursday</th>
+                                <th scope="col">Friday</th>
+                                <th scope="col">Saturday</th>
+                                <th scope="col">Sunday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Opening Time</th>
+                                <td>Closed</td>
+                                <td>9:00 AM</td>
+                                <td>9:00 AM</td>
+                                <td>9:00 AM</td>
+                                <td>9:00 AM</td>
+                                <td>9:00 AM</td>
+                                <td>9:00 AM</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Closing Time</th>
+                                <td>Closed</td>
+                                <td>7:00 PM</td>
+                                <td>7:00 PM</td>
+                                <td>7:00 PM</td>
+                                <td>7:00 PM</td>
+                                <td>8:00 PM</td>
+                                <td>8:00 PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <!-- --------------------------------------------------------------------------------------------- -->
+
+            <section>
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <form>
+
+                        <div class="form-grid form-width">
+
+                            <label class="formfield" for="name">Name : </label>
+                            <input class="formfield" type="text" name="name" id="name">
+                            <label class="formfield" for="email">Email : </label>
+                            <input class="formfield" type="text" name="email" id="email">
+                            <label class="formfield" for="service">Service : </label>
+                            <select class="formfield" name="service">
+                                <option value="">-- Select an option --</option>
+                                <optgroup label="Hair">
+                                    <option>Hair Cutting</option>
+                                    <option>Hair Styling</option>
+                                    <option>Hair Coloring</option>
+                                </optgroup>
+                                <optgroup label="Skin">
+                                    <option>Facial</option>
+                                    <option>Face Massage</option>
+                                    <option>Cleansing</option>
+                                </optgroup>
+                                <option>Make-Up</option>
+                                <option>Manicure</option>
+                                <option>Pedicure</option>
+                            </select>
+                            <label class="formfield" for="comments">Comments: </label>
+                            <textarea class="formfield" name="message" id="message"></textarea>
+                            <p class="formfield">When would you like to visit the salon?</p>
+                            <div class="check-field ">
+                                <div class="form-grid">
+                                    <input type="checkbox" name="chk-day" id="chkyes" value="Yes">
+                                    <label for="serviceyes">Weekdays</label>
+                                    <input type="checkbox" name="chk-day" id="chkno" value="No"><label
+                                        for="serviceno">Weekend</label>
+                                    <input type="checkbox" name="chk-day" id="chkmaybe" value="Maybe"><label
+                                        for="servicemaybe">Maybe</label>
+                                </div>
+                            </div>
+                            <p class="formfield">Have you ever visited us before?</p>
+                            <div class="radio-field">
+                                <div class="form-grid">
+                                    <input type="radio" name="rd-visit" id="radio1-yes" value="Yes">
+                                    <p for="serviceyes">Yes</p>
+                                    <input type="radio" name="rd-visit" id="radio1-no" value="No">
+                                    <p for="serviceno">No</p>
+                                </div>
+                            </div>
+                            <div></div>
+                            <div>
+                                <button type="submit">Submit</button>
+                                <button type="reset">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </fieldset>
+            </section>
+        </main>
+
+        <footer>
+            <div class="nav-footer">
+                <ul>
+                    <div class="footer-column"><a>
+                            <h3>Skin Care</h3>
+                        </a>
+                        <div class="footer-rows quicklinks">
+                            <div><a href="skincare.html#skin1">Facial</a></div>
+                            <div><a href="skincare.html#skin2">Body Scrub</a></div>
+                            <div><a href="skincare.html#skin3">Body Spa</a></div>
+                        </div>
+                    </div>
+                    <div class="footer-column"><a>
+                            <h3>Hair Styling</h3>
+                        </a>
+                        <div class="footer-rows">
+                            <div><a href="hairstyling.html#hair1"> Haircuts </a></div>
+                            <div><a href="hairstyling.html#hair2"> Hair coloring</a></div>
+                            <div><a href="hairstyling.html#hair3"> Hair styling </a></div>
+
+                        </div>
+                    </div>
+                    <div class="footer-column"><a>
+                            <h3>Make-up</h3>
+                        </a>
+                        <div class="footer-rows">
+                            <div><a href="makeup.html#makeup1">Bridal </a></div>
+                            <div><a href="makeup.html#makeup2">Special Event</a></div>
+                            <div><a href="makeup.html#makeup3">Highlighting </a></div>
+                        </div>
+                    </div>
+                </ul>
+
+            </div>
+
+            <div class="copyright">
+                &copy; Copyright - Rohit Thakur</div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!-- Name : Rohit Thakur
+Student Id : 8756601 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/service.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>Suhag Salon</title>
+    <link rel="icon" type="image/x-icon" href="pics/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="nav-bar-top">
+                <img src="pics/logo.png" alt="Logo">
+                <h1 class="mainh1">Suhag Beauty Salon</h1>
+            </div>
+        </header>
+
+        <nav class="nav-bar-main">
+            <ul class="navtop-ul navtop-main">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="li-dropdown">
+                    <!-- <a href="order.html">Services</a> -->
+                    <a href="services.html">Services <i class="fa fa-caret-down"></i></a>
+
+
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="">Hair Styling</li></a>
+                            <li><a href="">Make-up</li></a>
+                            <li><a href="">Laser Hair Removal</li></a>
+                            <li><a href="">Skin Treatment</li></a>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="hero-image">
+                <img src="pics/hero-image.png" alt="Hero image">
+            </div>
+            <div class="subheading">
+                <h2>Our Services</h2>
+                <div class="divider-h-lg"></div>
+                <p>Treat yourself to one of our signature services. Our beloved beauty experts will wow your brows, get
+                    you glowing and so much more. You’ll leave looking and feeling better than ever before.</p>
+            </div>
+            <div class="grid-salon">
+                <div class="salon-cell1">
+                    <div class="subheading">
+                        <h3 class="hr-lines">Our Salon</h3>
+                        <p class="p-dark">Suhag offers beauty services in GTA area for people who are looking
+                            for quality and affordable beauty care.</p>
+                        <p>Our Beauty Salon puts our customers' on a pedestal and leaves them satisfied with our
+                            services.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="salon-cell2"> <img src="pics/salon2.jpg" alt="Salon image1"></div>
+                <div class="salon-cell3"> <img src="pics/salon1.jpg" alt="Salon image2"></div>
+                <div class="salon-cell4">
+                    <div class="subheading">
+                        <h3 class="hr-lines">Our Responsibility</h3>
+                        <p class="p-dark">Our team is responsibile and committed to provide quality service and build
+                            lasting relationships
+                            with customers.</p>
+                        <p> Visit us now to get pampered and relax at Suhag Beauty Salon and Spa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-us">
+                <h2>Send us a mail</h2>
+                <form>
+                    <fieldset>
+                        <legend> Send us an email </legend>
+                        <div class="formfield">
+                            <label for="name">Name : </label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="formfield">
+                            <label for="email">Email : </label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div class="formfield">
+                            <label for="service">Service : </label>
+                            <select>
+                                <optgroup label="Hair">
+                                    <option>Hair Cutting</option>
+                                    <option>Hair Styling</option>
+                                    <option>Hair Coloring</option>
+                                </optgroup>
+                                <optgroup label="Skin">
+                                    <option>Facial</option>
+                                    <option>Face Massage</option>
+                                    <option>Cleansing</option>
+                                </optgroup>
+                                <option>Make-Up</option>
+                                <option>Manicure</option>
+                                <option>Pedicure</option>
+                            </select>
+                        </div>
+                        <div class="formfield">
+                            <label for="comments">Comments: </label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+
+                        <div class="formfield">
+                            <fieldset>
+                                <legend> Liked Service? </legend>
+                                <input type="checkbox" name="serviceyes" id="chk1-yes" value="Yes"> <label
+                                    for="serviceyes">Yes</label>
+                                <input type="checkbox" name="serviceno" id="chk1-no" value="No"><label
+                                    for="serviceno">No</label>
+                                <input type="checkbox" name="servicemaybe" id="chk1-maybe" value="Maybe"><label
+                                    for="servicemaybe">Maybe</label>
+                            </fieldset>
+                        </div>
+                        <div class="formfield">
+                            <fieldset>
+                                <legend> Have you come before? </legend>
+                                <input type="checkbox" name="serviceyes" id="radio1-yes" value="Yes"> <label
+                                    for="serviceyes">Yes</label>
+                                <input type="checkbox" name="serviceno" id="radio1-no" value="No"><label
+                                    for="serviceno">No</label>
+                            </fieldset>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+
+            </div>
+        </main>
+        <footer>
+            <nav class="nav-footer">
+                <ul class="navtop-ul navtop-main">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="li-dropdown">
+                        <!-- <a href="order.html">Services</a> -->
+                        <a href="order.html">Services <i class="fa fa-caret-down"></i></a>
+
+
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="">Hair Styling</li></a>
+                                <li><a href="">Make-up</li></a>
+                                <li><a href="">Laser Hair Removal</li></a>
+                                <li><a href="">Skin Treatment</li></a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                &copy; Copyright - Rohit Thakur </div>
+        </footer>
+    </div>
+</body>
+
+</html>

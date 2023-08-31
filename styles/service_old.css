@@ -1,0 +1,43 @@
+.contact-us form {
+  margin-bottom: 20px;
+}
+.formfield {
+  margin: 10px 5px;
+}
+.formfield label {
+  display: inline-block;
+  width: 105px;
+  vertical-align: top;
+}
+.formfield input {
+  width: 250px;
+}
+.formfield textarea {
+  width: 250px;
+}
+.formfield select {
+  width: 250px;
+}
+.contact-us fieldset {
+  /* border: 2px solid var(--colorHighlightBtn); */
+}
+.contact-us fieldset legend {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.submit {
+  /* border: 2px solid var(--colorHighlightBtn); */
+  padding: 20px;
+  margin-top: 9px;
+}
+/* .submit div {
+  margin: 0 0 10px 0;
+}
+.submit button {
+  border: 2px solid #800d29;
+  background-color: #800d29;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+} */
